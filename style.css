@@ -1,0 +1,57 @@
+.clsBtn {
+    text-shadow: none;
+    outline: none;
+    font-weight: 400;
+
+}
+
+.clsBtn:hover {
+    color: #ff9854eb;
+    text-shadow: none;
+    outline: none;
+    font-weight: 400;
+
+}
+
+.clsBtn:active {
+    color: #ff9854eb;
+    text-shadow: none;
+    outline: none;
+    font-weight: 400;
+
+}
+
+.clsBtn:focus {
+    color: #ff9854eb;
+    text-shadow: none;
+    outline: none;
+    font-weight: 400;
+}
+
+.my-btn {
+    cursor: pointer;
+}
+
+.form {
+    display: none;
+    transition: opacity 1s ease-out;
+    opacity: 0; 
+}
+
+.form.show {
+    display: block;
+    opacity: 1;
+}
+
+/* table */
+
+thead th, thead td {
+    text-align: center;
+}
+tbody th, tbody td {
+    text-align: center;
+}
+tfoot th, tfoot td {
+    text-align: center;
+}
+

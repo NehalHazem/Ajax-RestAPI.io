@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="icons8-api-50.png"/>
+    <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" 
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>  
+    <title>Ajax</title>
+</head>
+<body>
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ajax - JSONPlaceholder (Fake Online REST API)</a>
+        </div>
+    </nav> -->
+
+    <nav class="mt-5">
+        <div class="container">
+            <h5 style="color: #ffffff;text-decoration: underline;">Ajax - JSONPlaceholder (Fake Online REST API)</h5>
+        </div>
+    </nav>
+
+    
+
+    <div class="container mt-5"> 
+
+        <div class="alert alert-dismissible alert-secondary">
+        </div>
+
+        <div class="new mb-5">
+
+            <button type="button" class="btn newBtn btn-primary mt-4 mb-3">New  <i class="fas fa-user-plus"></i></button>
+
+            <form class="form">
+                <div class="form-group row">
+                    <label for="username" class="col-sm-2 col-form-label">Username :</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="username" autocomplete="off" required>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="emailField" class="col-sm-2 col-form-label">Email :</label>
+                    <div class="col-sm-4">
+                        <input type="email" class="form-control" id="emailField" autocomplete="off" required>
+                    </div>
+                </div>
+                <div class="col-sm-8 text-center">
+                    <p id="inValid" style="color: #ff944d; display: none;">Username and Valid Email Address is Required</p>
+                    <button type="submit" class="btn btn-primary saveBtn">Save</button>
+                    <button type="reset" class="btn btn-primary saveBtn">Reset</button>
+                </div>
+            </form>
+
+        </div>
+
+        <table class="table table-hover mb-5">
+            <thead>
+                <tr class="table-primary">
+                    <th scope="col">ID</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Edit</th>
+                    <th scope="col">Delete</th>
+              </tr>
+            </thead>
+            <tbody class="output"></tbody>
+            <tfoot>
+                <tr class="table-dark">
+                    <th scope="row"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table> 
+    </div> 
+
+    
+    
+</body>
+</html>
